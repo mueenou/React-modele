@@ -29,5 +29,6 @@ yarn add react react-dom
 yarn add --dev eslint eslint-config-airbnb babel-eslint
 yarn add --dev eslint-import-resolver-alias
 yarn add --dev eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+yarn add --dev babel-polyfill
 ```
 
