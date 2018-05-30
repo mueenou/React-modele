@@ -16,3 +16,4 @@ const App = () => (
 const rootComponent = App();
 const targetNode = document.getElementById('root');
 render(rootComponent, targetNode);
+
