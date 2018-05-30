@@ -23,6 +23,7 @@
     "parcel-bundler": "^1.8.1",
     "postcss-modules": "^1.1.0",
     "react-dom": "^16.4.0",
+    "stylint": "^1.5.9",
     "stylus": "^0.54.5"
   },
   "dependencies": {
