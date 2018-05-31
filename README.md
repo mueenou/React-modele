@@ -23,13 +23,32 @@ yarn add --dev babel-preset-react
 yarn add react react-dom
 ```
 
+* .babelrc
+
 ### ESLint
 
 ``` sh
 yarn add --dev eslint eslint-config-airbnb babel-eslint
 yarn add --dev eslint-import-resolver-alias
 yarn add --dev eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+```
+
+* eslintrc
+* .eslintignore
+
+### CSS (Stylus, PostCSS, Autoprefixer)
+
+``` sh
+yarn add --dev stylus postcss-modules autoprefixer stylint
+```
+
+* .stylintrc
+* .postcssrc
+* .browserslistrc
+
+### Utilitaires
+
+``` sh
 yarn add --dev babel-polyfill
-yarn add --dev stylus
 ```
 
