@@ -11,6 +11,8 @@ yarn start # compiler le projet avec Parcel
 # http://localhost:1234/
 ```
 
+En pratique, on peut se baser sur React-modele pour démarrer un *nouveau* projet, ou travailler sur un challenge.
+
 ## Configuration
 
 ### Babel (ES6/JSX -> ES5)
