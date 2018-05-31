@@ -19,4 +19,6 @@ yarn start # compiler le projet avec Parcel
 yarn add --dev babel-preset-env # vocabulaire ES6 -> ES5 de base
 yarn add --dev babel-plugin-transform-class-properties
 yarn add --dev babel-plugin-transform-object-rest-spread
+yarn add --dev babel-preset-react
+yarn add react react-dom
 ```
