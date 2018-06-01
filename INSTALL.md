@@ -76,4 +76,8 @@ yarn add --dev stylus postcss-modules autoprefixer stylint
 ``` sh
 yarn add --dev babel-polyfill
 ```
+## Outils pratiques
 
+* Extension React Dev Tools
+  * [pour Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+  * [pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
