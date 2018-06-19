@@ -11,6 +11,12 @@ import reducer from './reducer';
 /**
  * Création du store
  */
-const store = createStore(reducer);
+// https://github.com/zalmoxisus/redux-devtools-extension
+const devTools = [];
+if (window.devToolsExtension) {
+  // On configure l'extension Redux pour Chrome/Firefox.
+  devTools.push(window.devToolsExtension());
+}
+const store = createStore(reducer, ...devTools);
 
 export default store;
