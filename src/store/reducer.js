@@ -11,7 +11,7 @@ const reducer = (currentState = initialState, action = {}) => {
     case 'GENERATE_RANDOM_VALUE':
       return {
         ...currentState,
-        value: Math.floor(Math.random() * action.facesNb),
+        value: action.value,
       };
 
     default: return currentState;

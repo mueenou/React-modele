@@ -11,7 +11,7 @@ import store from '~/store';
 document.addEventListener('DOMContentLoaded', () => {
   const rootComponent = (
     <Provider store={store}>
-      <App diceFacesNb={100} />
+      <App diceFacesNb={3} />
     </Provider>
   );
   const targetNode = document.getElementById('root');
