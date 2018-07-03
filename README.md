@@ -29,9 +29,9 @@ Il s'agit essentiellement de copier/coller les parties intéressantes du modèle
 ``` sh
 # Exemple : après avoir cloné un challenge dans le dossier challenge/ :
 cd challenge
-cp ../React-modele/* .      # copie des fichiers non-cachés présents à la racine du modèle
-cp ../React-modele/.* .     # copie des fichiers cachés présents à la racine du modèle
-cp -r ../React-modele/src . # copie du dossier src/
+cp -n ../React-modele/* .      # copie des fichiers non-cachés présents à la racine du modèle
+cp -n ../React-modele/.* .     # copie des fichiers cachés présents à la racine du modèle
+cp -nr ../React-modele/src . # copie du dossier src/
 yarn
 yarn start
 ```
